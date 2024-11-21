@@ -1,0 +1,123 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.q{
+    margin-bottom: 30px;
+    border: none;
+    width: 1000px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #0d3d78;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#hear1,#hear2,#hear3,#hear4,#hear5,#hear6,#hear7,#hear8,#hear9,#hear10,#hear11,#hear12,#hear13,#hear14,#hear15,#hear16,#hear17,#hear18,#hear19,#hear20{
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    text-align: center;
+    height: 50px;
+    
+    background-color: #59b53a;
+    color: white;
+    font-size: 15px;
+}
+#answer1,#answer2,#answer3,#answer4,#answer5,#answer6,#answer7,#answer8,#answer9,#answer10,#answer11,#answer12,#answer13,#answer14,#answer15,#answer16,#answer17,#answer18,#answer19,#answer20{
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+}
+h1{
+    background-color: #bad8e6;
+    border: none;
+    width: 800px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+
+}
+.score{
+    position: absolute;
+    background-color: #07185c;
+    border: none ;
+    width: 1200px;
+    margin-left: 2%;
+    height: 610px;
+    display: flex;
+    justify-content: center;  
+    flex-direction: column;
+    font-size: 70px;
+    padding-left: 20px;
+    border-radius: 20px;
+
+}
+#mistakes{
+    border: none;
+    width: 330px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #74b58a;
+    color: white;
+    font-size: 20px;
+    border-radius: 32px;
+}
+#average{
+    border: none;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+    margin-bottom: 10px;
+    font-size: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#score{
+    visibility: hidden;
+}
+#check{
+    font-size: 30px;
+    border: none;
+    background-color: #0ca6a8;
+    border-radius: 30px;
+    height: 60px;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+#check:hover{
+    transform: scale(1.02);
+}
+#mark1,#mark2,#mark2,#mark3,#mark4,#mark5,#mark6,#mark7,#mark8,#mark9,#mark10,#mark11,#mark12,#mark13,#mark14,#mark15,#mark16,#mark17,#mark18,#mark19,#mark20{
+    border: none;
+    width: 400px;
+    height: 50px;
+
+}
+h2{
+    text-align: center;
+}
